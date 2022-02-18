@@ -55,6 +55,7 @@ public class Movie {
     }
 
     public double getRating() {
+
         return rating;
     }
 

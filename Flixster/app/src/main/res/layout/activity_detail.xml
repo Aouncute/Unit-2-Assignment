@@ -17,9 +17,11 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textColor="#FAFAFF"
         android:textSize="30sp"
-        tools:text="Spider-Man: No Way Home" />
+        tools:text="Spider-Man: No Way Home"
+        android:transitionName="tvTitle" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -33,6 +35,9 @@
         android:id="@+id/tvOverview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
         android:textColor="#FAFAFA"
+        android:transitionName="tvOverview"
         tools:text="Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man." />
 </LinearLayout>
