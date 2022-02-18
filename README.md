@@ -19,11 +19,12 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
   - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
 - [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
 - [ ] Apply data binding for views to help remove boilerplate code. (1 point)
-- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
+- [X] Add a rounded corners for the images using the Glide transformations. (1 point)
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="http://g.recordit.co/6TAmjAiVp0.gif" width=250><br>
+
 
 ### Notes
 
@@ -53,7 +54,9 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+
+<img src="http://g.recordit.co/XaP4R2Tt5O.gif" width=250><br>
+<img src="http://g.recordit.co/FMCTGz0O4f.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
