@@ -30,6 +30,7 @@
         android:textColor="#FAFAFA"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:transitionName="tvTitle"
         tools:text="Spider-Man: No Way Home" />
 
     <TextView

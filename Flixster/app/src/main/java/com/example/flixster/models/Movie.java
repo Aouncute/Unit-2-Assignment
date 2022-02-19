@@ -16,6 +16,8 @@ public class Movie {
     String overview;
     String backdropPath;
     double rating;
+    double popularity;
+
 
     // Empty constructor needed by the Parceler library
     public Movie() {}
@@ -27,6 +29,8 @@ public class Movie {
         backdropPath = jsonObject.getString("backdrop_path");
         rating = jsonObject.getDouble("vote_average");
         movieId = jsonObject.getInt("id");
+        popularity = jsonObject.getDouble("popularity");
+
 
     }
     public static List<Movie> fromJsonArray(JSONArray movieJsonArray) throws JSONException {
@@ -60,6 +64,12 @@ public class Movie {
     }
 
     public int getMovieId() {
+
         return movieId;
+    }
+
+    public double getPopularity() {
+
+        return popularity;
     }
 }
